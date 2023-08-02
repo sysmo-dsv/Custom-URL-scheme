@@ -47,9 +47,6 @@
 
   <!-- android -->
   <platform name="android">
-    <preference name="ANDROID_SCHEME" default=" " />
-    <preference name="ANDROID_HOST" default=" " />
-    <preference name="ANDROID_PATHPREFIX" default="/" />
 
     <js-module src="www/android/LaunchMyApp.js" name="LaunchMyApp">
       <clobbers target="window.plugins.launchmyapp" />
